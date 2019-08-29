@@ -16,5 +16,5 @@ jobs:
           command: date
       - run: 
           name: Try Perf
-          command: sudo ./run.sh
+          command: ./run.sh
       
