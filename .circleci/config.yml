@@ -15,5 +15,6 @@ jobs:
           name: Print the Current Time
           command: date
       - run: 
-          name: step
-          command: ls
+          name: "Try Perf"
+          command: apt install linux-tools-generic 
+          command: perf stat gzip file
