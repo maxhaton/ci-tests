@@ -1,4 +1,3 @@
 echo "test!"
 yes | apt update
-apt install linux-tools linux-generic
-perf
+apt install linux-tools-$(uname -r) linux-tools-generic\
