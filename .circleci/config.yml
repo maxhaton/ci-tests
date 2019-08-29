@@ -16,5 +16,5 @@ jobs:
           command: date
       - run: 
           name: Try Perf
-          command: apt update && apt install linux-perf && perf stat gzip file
+          command:  apt install linux-perf && perf stat gzip file
       
