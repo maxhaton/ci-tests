@@ -35,5 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           sudo perf stat -e cpu-clock echo "Human chimp"
-          sudo perf record -F 99 -g -- ls -a
-          perf report --stdio
+          sudo perf record echo "chimp"
